@@ -1,0 +1,38 @@
+# Arquivos temporários e de sistema
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+*.log
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ambientes virtuais
+venv/
+.venv/
+env/
+.env/
+
+# Modelos pesados e pesos de IA (devem ser baixados, não versionados no Git)
+*.safetensors
+*.gguf
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.onnx
+
+# Pastas de dados e saídas locais do ComfyUI
+output/
+temp/
+input/
+models/
+
+# Arquivos de vídeo e imagem gerados
+*.mp4
+*.gif
+*.png
+*.jpg
+*.jpeg
+*.webp
