@@ -51,8 +51,10 @@ Todos os arquivos devem ser salvos nas suas pastas correspondentes dentro de `Co
 | **Text Encoder** | `qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors` | Todos | ~14,61 GB | [Baixar via Hugging Face](https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/main/text_encoders/qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors) |
 | **Video VAE** | `minimax_h3_video_vae_fp16.safetensors` | Todos | ~4,85 GB | [Baixar via Hugging Face](https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/main/vae/minimax_h3_video_vae_fp16.safetensors) |
 | **Audio VAE** | `minimax_h3_audio_vae_fp32.safetensors` | Todos | ~0,56 GB | [Baixar via Hugging Face](https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/main/vae/minimax_h3_audio_vae_fp32.safetensors) |
-| **Upscale 4x-UltraSharp** | `4x-UltraSharp.pth` | Upscale | ~67 MB | [Baixar via Hugging Face](https://huggingface.co/lokcx/4x-Ultrasharp/resolve/main/4x-UltraSharp.pth) |
-| **Upscale RealESRGAN** | `RealESRGAN_x4plus.pth` | Upscale | ~67 MB | [Baixar via Hugging Face](https://huggingface.co/ai-forever/Real-ESRGAN/resolve/main/RealESRGAN_x4plus.pth) |
+| **Upscale Nomos8kDAT** | `4xNomos8kDAT.pth` | Upscale (DAT) | ~295 MB | [Baixar via Hugging Face](https://huggingface.co/Maxivi/SDXLModels/resolve/main/4xNomos8kDAT.pth) |
+| **Upscale NMKD** | `4x_NMKD-Superscale-SP_178000_G.pth` | Upscale | ~64 MB | [Baixar via Hugging Face](https://huggingface.co/gemasai/4x_NMKD-Superscale-SP_178000_G/resolve/main/4x_NMKD-Superscale-SP_178000_G.pth) |
+| **Upscale UltraSharp** | `4x-UltraSharp.pth` | Upscale | ~64 MB | [Baixar via Hugging Face](https://huggingface.co/lokcx/4x-Ultrasharp/resolve/main/4x-UltraSharp.pth) |
+| **Upscale RealESRGAN** | `RealESRGAN_x4plus.pth` | Upscale | ~64 MB | [Baixar via Hugging Face](https://huggingface.co/lllyasviel/Annotators/resolve/main/RealESRGAN_x4plus.pth) |
 
 ---
 
