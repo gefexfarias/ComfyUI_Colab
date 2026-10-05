@@ -29,7 +29,8 @@ Repositório contendo o fluxo otimizado do **MiniMax H3** (modelo de difusão mu
 ## 📁 Estrutura do Repositório
 
 ```text
-├── MiniMax_H3_on_Colab_T4.ipynb       # Notebook principal otimizado para o Google Colab
+├── MiniMax_H3_on_Colab_T4.ipynb       # Notebook principal: Geração de Vídeo + Áudio no Colab T4
+├── Video_Upscaler_Pro_Colab.ipynb     # Notebook dedicado: Upscaler Pro (1080p/4K) individual e em lote
 ├── README.md                          # Visão geral do repositório
 ├── MODOS_DE_GERACAO_E_MODELOS.md      # Guia detalhado dos 3 modos e links oficiais de download
 ├── LEIAME.md                          # Guia passo a passo de execução
