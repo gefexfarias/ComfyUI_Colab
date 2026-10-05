@@ -20,6 +20,7 @@ Repositório contendo o fluxo otimizado do **MiniMax H3** (modelo de difusão mu
   * Se faltarem modelos, baixa direto para as subpastas corretas (`diffusion_models`, `loras`, `vae`, `text_encoders`).
 * **Suporte a Consistência de Personagens (R2V / Ref2VA):** Suporta até 9 imagens de referência para manter o mesmo ator/personagem ao longo de diferentes tomadas e ângulos.
 * **Turbo LoRA (4 a 6 Passos):** Aceleração do sampling de ~20 passos para apenas 4 a 6 passos mantendo sincronia labial/áudio.
+* **Stage 7 Video Upscaler (1080p / 4K + Áudio Preservado):** Super-resolução neural frame a frame na GPU com `4x-UltraSharp` ou `RealESRGAN`, preservando o áudio original sincronizado e salvando direto no Drive (`video_upscaled/`).
 * **Prevenção de Tela Preta / NaNs:** Configurado com `--bf16-unet` e `fp32 RMSNorm` nos tensores residuais para estabilidade matemática total.
 * **Pronto para 1 Clique (*Run All*):** O notebook possui guarda de GPU e roda do início ao fim sem requerer ajustes manuais.
 
@@ -49,6 +50,8 @@ Todos os arquivos devem ser salvos nas suas pastas correspondentes dentro de `Co
 | **Text Encoder** | `qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors` | Todos | ~14,61 GB | [Baixar via Hugging Face](https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/main/text_encoders/qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors) |
 | **Video VAE** | `minimax_h3_video_vae_fp16.safetensors` | Todos | ~4,85 GB | [Baixar via Hugging Face](https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/main/vae/minimax_h3_video_vae_fp16.safetensors) |
 | **Audio VAE** | `minimax_h3_audio_vae_fp32.safetensors` | Todos | ~0,56 GB | [Baixar via Hugging Face](https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/main/vae/minimax_h3_audio_vae_fp32.safetensors) |
+| **Upscale 4x-UltraSharp** | `4x-UltraSharp.pth` | Upscale | ~67 MB | [Baixar via Hugging Face](https://huggingface.co/lokcx/4x-Ultrasharp/resolve/main/4x-UltraSharp.pth) |
+| **Upscale RealESRGAN** | `RealESRGAN_x4plus.pth` | Upscale | ~67 MB | [Baixar via Hugging Face](https://huggingface.co/ai-forever/Real-ESRGAN/resolve/main/RealESRGAN_x4plus.pth) |
 
 ---
 

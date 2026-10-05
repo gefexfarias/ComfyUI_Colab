@@ -23,7 +23,14 @@ Este diretório contém o notebook [`MiniMax_H3_on_Colab_T4.ipynb`](file:///c:/A
 3. **Links Simbólicos Automáticos no ComfyUI:**
    * O notebook cria links simbólicos instantâneos no ComfyUI da máquina virtual apontando para os arquivos do seu Google Drive. Isso significa **zero duplicação de arquivos e zero consumo desnecessário de disco temporário**.
 
-4. **Guarda de GPU T4:**
+4. **Stage 7 -- Video Upscaler (1080p / 4K + Áudio Preservado):**
+   * Super-resolução neural frame a frame na GPU com os modelos `4x-UltraSharp` ou `RealESRGAN_x4plus`.
+   * Preserva a trilha de som estéreo original do MiniMax H3 com sincronia milimétrica.
+   * Streaming FFmpeg direto em memória (zero arquivos temporários soltos no disco).
+   * Salva os vídeos em alta resolução em `MyDrive/H3/MiniMax-H3-Native-Colab/video_upscaled/`.
+   * Modelos de upscaling armazenados permanentemente em `MyDrive/ComfyUI/models/upscale_models/`.
+
+5. **Guarda de GPU T4:**
    * Verifica se o acelerador está como GPU T4 logo no primeiro segundo de execução.
 
 ---
@@ -37,4 +44,4 @@ Este diretório contém o notebook [`MiniMax_H3_on_Colab_T4.ipynb`](file:///c:/A
 4. Clique em **Ambiente de execução** $\rightarrow$ **Executar tudo** (*Run all*).
 5. Se aparecer o pop-up solicitando acesso ao Google Drive, clique em **Conectar ao Google Drive**.
 
-O notebook cuidará de todo o resto sozinho!
+O notebook cuidará de todo o resto sozinho, desde a geração do vídeo bruto até o upscaling em Full HD/4K!
